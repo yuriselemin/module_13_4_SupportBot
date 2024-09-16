@@ -3,7 +3,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
 
-api = '7318149436:AAGsSUVCDgZhtmeaAEPHaoSxhZDaYpYoO_U'
+api = '_______'
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
@@ -56,3 +56,5 @@ async def send_calories(message, state):
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
+
+
